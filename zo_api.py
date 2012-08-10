@@ -10,10 +10,6 @@ FLG_SERVICE = 'ZOSERVICE_' + __version__
 M_READY         = '\x01'
 M_REQUEST       = '\x02'
 M_REPLY         = '\x03'
-C_HEARTBEAT     = '\x04'
-C_DISCONNECT    = '\x05'
-
-cmds = [None, 'READY', 'REQUEST' ,'REPLY', 'HEARTBREAK', 'DISCONNECT']
 
 
 class ZOClient(object):
